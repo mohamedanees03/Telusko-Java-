@@ -1,3 +1,13 @@
+/*
+    Points:
+     1. Abstract class can also have normal method
+     2. We cannot create the object of abstract class 
+     3. The abstract keyword is used to create an abstract class and method. 
+     4. Abstract classes cannot be instantiated. 
+     5. When an abstract class is subclassed, the subclass usually provides implementations 
+    for all of the abstract methods in its parent class. 
+*/
+
 public class Abstract
 {
     public static void main(String[] args)
@@ -34,14 +44,3 @@ class UpdateAudi extends Audi   // This class is called as Concrete class
         System.out.println("Flying...");
     }
 }
-
-
-/*
-    Points:
-     1. Abstract class can also have normal method
-     2. We cannot create the object of abstract class 
-     3. The abstract keyword is used to create an abstract class and method. 
-     4. Abstract classes cannot be instantiated. 
-     5. When an abstract class is subclassed, the subclass usually provides implementations 
-    for all of the abstract methods in its parent class. 
-*/
