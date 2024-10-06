@@ -1,4 +1,4 @@
-public class Main
+public class StringBuffer
 {
     public static void main(String[] args) 
     {
